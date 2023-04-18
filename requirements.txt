@@ -1,0 +1,8 @@
+flask
+sqlalchemy
+plotly
+pandas
+seaborn
+tensorflow
+scikit-learn
+livelossplot
