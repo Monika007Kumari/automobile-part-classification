@@ -65,10 +65,10 @@ def delete(filename):
         db_delete(automobile)
         os.remove(path)
         flash('File deleted successfully', 'success')
-        return redirect('/')
+        return redirect('/uploads/all')
     except:
         flash('File not found', 'danger')
-        return redirect('/')
+        return redirect('/uploads/all')
     
 @app.route('/<filename>/predict', methods=['GET', 'POST'])
 def predict_part(filename):
