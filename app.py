@@ -29,6 +29,10 @@ def allowed_file(filename):
 def index():
     return render_template('index.html')
 
+@app.route('/aboutus')
+def aboutus():
+    return render_template('aboutus.html')
+
 @app.route('/upload', methods=['GET', 'POST'])
 def upload():
 
