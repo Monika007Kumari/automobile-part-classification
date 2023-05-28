@@ -381,3 +381,42 @@
     padding-right: 0;
     border-right: none;
 }
+
+.board__images {
+    position: relative;
+    width: 45%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    background-color: #fefefe;
+    font-family: InterRegular,sans-serif;
+    font-size: 14px;
+    color: #717171;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+:root {
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    min-height: -webkit-fill-available;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
